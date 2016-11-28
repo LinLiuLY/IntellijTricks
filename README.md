@@ -25,36 +25,51 @@ Intellij Tricks https://www.udemy.com/intellij-idea-secrets-double-your-coding-s
 - expand current code block: `command + '+'`
 
 ## Code Navigation
-#### Navigate to Class: `command + o`
+### Navigation between texts
+- scroll page up `fn + up`
+- scroll page down `fn + down`
+- move to the first line of the code `fn + cmd + left`
+- move to the last line of the code `fn + cmd + right`
+
+### Navigate to Class: `command + o`
 - partial match
 - camel humps
 - wildcard search
 
-#### Navigate to Symbol: `alt + command + o`
+### Navigate to Back: `command + [`
 
-#### Navigate to File
+### Navigate to Symbol: `alt + command + o`
+
+### Navigate to File
 - navigate to file: `command + shift + o`
 - type file name or file path to look up files
 - type folder name with '/' in the end to look for folders
 
-#### Navigate to Action
+### Navigate to Action
 - navigate to the desired action: `command + shift + a`
 
-#### Search Everywhere: `shift + shift`
+### Search Everywhere: `shift + shift`
+- to move between sections in search everywhere window `tab`
+
+### Search usage `command + B`
+
 
 #### Tabs
 - navigate to recent files: `command + e`
 - navigate to recent edited files: `shift + command + e`
 
 ## Code Selection
-- extend selection: `alt + up`
-- shrink selections: `shift + command + w`
+- extend selection: `alt + up/down`
+
+- select one word at a time `shift + alt + left/right`
+- select the beginning to end `shift + command + left/right`
+
 - select the next occurrence: `ctrl + g`
 - unselect the next occurrence: `shift + ctrl + g`
-- multi-cursor: `alt + left mouse`
+
 
 ## Code Completion
-#### Smart Code Completion: `alt + Enter`
+#### Smart Code Completion: `alt + Enter` `shift + control + space`
 - after the new keyword in an object declaration
 - in the list of parameters of a method call
 - in return statements
@@ -74,7 +89,7 @@ Intellij Tricks https://www.udemy.com/intellij-idea-secrets-double-your-coding-s
 - reformat current selection or current file: `alt + command + l`
 
 #### code optimize
-- optimize import statements: `alt + command + o`
+- optimize import statements: `alt + ctl + o`
 - enable **Optimize imports on the fly** to automatically optimize imports after each change
 
 #### navigate to compilation error
@@ -85,4 +100,12 @@ Intellij Tricks https://www.udemy.com/intellij-idea-secrets-double-your-coding-s
 
 ## Language Injection
 - add language injection: `alt + enter`
-- close current fragment editor or current file: `command + F4`
+- close current fragment editor or current file: `command + W`
+
+## Git
+- open the git manual `ctl + v`
+- commit project `command + k`
+- revert a file `alt + command + z`
+- show diff `command + D`
+
+
