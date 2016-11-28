@@ -6,7 +6,7 @@ Intellij Tricks https://www.udemy.com/intellij-idea-secrets-double-your-coding-s
 
 ## Editing and working with code
 #### Move lines and statements
-- move line down: `alt + shift + down`
+- move line down: `command + shift + down`
 - move statement up: `command + shift + up`
 
 #### Duplicating and Deleting line
@@ -18,22 +18,22 @@ Intellij Tricks https://www.udemy.com/intellij-idea-secrets-double-your-coding-s
 
 #### Commenting and block commenting code
 - comment or uncomment current selection: `command + /`
-- block comment or uncomment current selection: `ctrl + shift + /`
+- block comment or uncomment current selection: `command + shift + /`
 
 #### Folding and expanding code
 - fold current code block: `command + '-'`
 - expand current code block: `command + '+'`
 
 ## Code Navigation
-#### Navigate to Class: `command + n`
+#### Navigate to Class: `command + o`
 - partial match
 - camel humps
 - wildcard search
 
-#### Navigate to Symbol: `alt + command + shift + n`
+#### Navigate to Symbol: `alt + command + o`
 
 #### Navigate to File
-- navigate to file: `command + shift + n`
+- navigate to file: `command + shift + o`
 - type file name or file path to look up files
 - type folder name with '/' in the end to look for folders
 
@@ -47,7 +47,7 @@ Intellij Tricks https://www.udemy.com/intellij-idea-secrets-double-your-coding-s
 - navigate to recent edited files: `shift + command + e`
 
 ## Code Selection
-- extend selection: `command + w`
+- extend selection: `alt + up`
 - shrink selections: `shift + command + w`
 - select the next occurrence: `ctrl + g`
 - unselect the next occurrence: `shift + ctrl + g`
@@ -66,8 +66,8 @@ Intellij Tricks https://www.udemy.com/intellij-idea-secrets-double-your-coding-s
 - insert try-catch block: `try`
 
 ## Code Generation
-- display generate menu in class file: `ctrl + n`
-- display generate menu in test class: `ctrl + n`
+- display generate menu in class file: `command + n`
+- display generate menu in test class: `command + n`
 
 ## Code Style
 #### code reformat
